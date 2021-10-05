@@ -12,6 +12,7 @@ public class Runner extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(Runner.class, args);
+        System.out.println("sda");
     }
 
 }
