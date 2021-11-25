@@ -70,6 +70,7 @@ public class BookingServiceImpl implements BookingService {
                 .sorted(comparator)
                 .collect(Collectors.toList()),
                 new TypeToken<List<FacilityDto>>() {}.getType());
+        //
     }
 
     @Override
